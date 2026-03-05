@@ -2,1066 +2,199 @@
   "cities": [
     {
       "id": "reykjavik",
-      "name": "Reykjavik",
+      "name": "Reykjavík",
       "country": "Iceland",
-      "mustdo": [
+
+      "travel_info": {
+        "currency": "Icelandic Krona (ISK)",
+        "timezone": "GMT (Estonia +2h winter, +3h summer)",
+        "language": "Icelandic, English widely spoken",
+        "best_months": ["June", "July", "August", "September"],
+        "important_rules": [
+          "Stay on marked paths in nature areas",
+          "Do not step on moss fields",
+          "Respect geothermal areas",
+          "Tipping is not expected in Iceland",
+          "Alcohol is expensive and sold mainly in Vinbudin stores"
+        ]
+      },
+
+      "transport": {
+        "airport_distance": "50 km",
+        "airport_transfer": "Flybus or Airport Direct",
+        "public_transport": "Strætó bus system",
+        "average_ticket_price": "550 ISK"
+      },
+
+      "budget": {
+        "cheap_meal": "15-20€",
+        "restaurant_meal": "25-40€",
+        "coffee": "4-5€",
+        "beer": "8-10€"
+      },
+
+      "emergency": {
+        "police": "112",
+        "ambulance": "112",
+        "tourist_help": "Visit Iceland Information Centers"
+      },
+
+      "seasons": {
+        "spring": [
+          "Whale watching tours",
+          "Visit Reykjavik Botanical Garden",
+          "Waterfalls with melting snow",
+          "Fewer tourists and lower hotel prices"
+        ],
+        "summer": [
+          "Midnight sun photography",
+          "Golden Circle road trips",
+          "Puffin watching",
+          "Outdoor hot springs"
+        ],
+        "autumn": [
+          "Northern Lights begin",
+          "Autumn landscapes",
+          "Less crowded attractions",
+          "Photography trips"
+        ],
+        "winter": [
+          "Northern Lights tours",
+          "Blue Lagoon hot springs",
+          "Ice caves and glaciers",
+          "Christmas markets"
+        ]
+      },
+
+      "instagram_spots": [
         {
-          "name": "Hallgrímskirkja Church",
+          "name": "Hallgrímskirkja kirik",
           "name_en": "Hallgrímskirkja Church",
-          "maps": "https://www.google.com/maps/search/Hallgr%C3%ADmskirkja%20Church%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hallgrímskirkja Church is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
+          "desc": "Reykjaviki kõige kuulsam kirik, mille tornist avaneb suurepärane vaade linnale ja ümbritsevatele mägedele.",
+          "maps": "https://maps.google.com/?q=Hallgrimskirkja"
         },
         {
-          "name": "Harpa Concert Hall",
-          "name_en": "Harpa Concert Hall",
-          "maps": "https://www.google.com/maps/search/Harpa%20Concert%20Hall%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Harpa Concert Hall is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
+          "name": "Vikerkaare tänav",
+          "name_en": "Rainbow Street",
+          "desc": "Värviline tänav Reykjavíki kesklinnas, mis viib otse Hallgrímskirkja kirikuni ja on üks linna populaarsemaid Instagrami kohti.",
+          "maps": "https://maps.google.com/?q=Skolavordustigur"
         },
         {
-          "name": "Sun Voyager Sculpture",
+          "name": "Sun Voyager skulptuur",
           "name_en": "Sun Voyager Sculpture",
-          "maps": "https://www.google.com/maps/search/Sun%20Voyager%20Sculpture%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Sun Voyager Sculpture is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Perlan Museum",
-          "name_en": "Perlan Museum",
-          "maps": "https://www.google.com/maps/search/Perlan%20Museum%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Perlan Museum is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Old Harbour",
-          "name_en": "Reykjavik Old Harbour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Old%20Harbour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Old Harbour is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Tjörnin Pond",
-          "name_en": "Tjörnin Pond",
-          "maps": "https://www.google.com/maps/search/Tj%C3%B6rnin%20Pond%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Tjörnin Pond is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik City Hall",
-          "name_en": "Reykjavik City Hall",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20City%20Hall%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik City Hall is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "National Museum of Iceland",
-          "name_en": "National Museum of Iceland",
-          "maps": "https://www.google.com/maps/search/National%20Museum%20of%20Iceland%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "National Museum of Iceland is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Austurvöllur Square",
-          "name_en": "Austurvöllur Square",
-          "maps": "https://www.google.com/maps/search/Austurv%C3%B6llur%20Square%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Austurvöllur Square is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Laugavegur Street",
-          "name_en": "Laugavegur Street",
-          "maps": "https://www.google.com/maps/search/Laugavegur%20Street%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Laugavegur Street is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Skólavörðustígur Rainbow Street",
-          "name_en": "Skólavörðustígur Rainbow Street",
-          "maps": "https://www.google.com/maps/search/Sk%C3%B3lav%C3%B6r%C3%B0ust%C3%ADgur%20Rainbow%20Street%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Skólavörðustígur Rainbow Street is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Art Museum Hafnarhús",
-          "name_en": "Reykjavik Art Museum Hafnarhús",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Art%20Museum%20Hafnarh%C3%BAs%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Art Museum Hafnarhús is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Grótta Lighthouse",
-          "name_en": "Grótta Lighthouse",
-          "maps": "https://www.google.com/maps/search/Gr%C3%B3tta%20Lighthouse%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Grótta Lighthouse is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Nauthólsvík Geothermal Beach",
-          "name_en": "Nauthólsvík Geothermal Beach",
-          "maps": "https://www.google.com/maps/search/Nauth%C3%B3lsv%C3%ADk%20Geothermal%20Beach%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Nauthólsvík Geothermal Beach is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Videy Island",
-          "name_en": "Videy Island",
-          "maps": "https://www.google.com/maps/search/Videy%20Island%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Videy Island is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Saga Museum",
-          "name_en": "Saga Museum",
-          "maps": "https://www.google.com/maps/search/Saga%20Museum%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Saga Museum is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Whale Watching Reykjavik",
-          "name_en": "Whale Watching Reykjavik",
-          "maps": "https://www.google.com/maps/search/Whale%20Watching%20Reykjavik%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Whale Watching Reykjavik is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "The Settlement Exhibition",
-          "name_en": "The Settlement Exhibition",
-          "maps": "https://www.google.com/maps/search/The%20Settlement%20Exhibition%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "The Settlement Exhibition is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Arbaer Open Air Museum",
-          "name_en": "Arbaer Open Air Museum",
-          "maps": "https://www.google.com/maps/search/Arbaer%20Open%20Air%20Museum%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Arbaer Open Air Museum is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Maritime Museum",
-          "name_en": "Reykjavik Maritime Museum",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Maritime%20Museum%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Maritime Museum is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Klambratún Park",
-          "name_en": "Klambratún Park",
-          "maps": "https://www.google.com/maps/search/Klambrat%C3%BAn%20Park%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Klambratún Park is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Einar Jónsson Sculpture Garden",
-          "name_en": "Einar Jónsson Sculpture Garden",
-          "maps": "https://www.google.com/maps/search/Einar%20J%C3%B3nsson%20Sculpture%20Garden%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Einar Jónsson Sculpture Garden is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Botanical Garden",
-          "name_en": "Reykjavik Botanical Garden",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Botanical%20Garden%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Botanical Garden is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Oskjuhlid Hill Walk",
-          "name_en": "Oskjuhlid Hill Walk",
-          "maps": "https://www.google.com/maps/search/Oskjuhlid%20Hill%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Oskjuhlid Hill Walk is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Laugardalslaug Pool",
-          "name_en": "Laugardalslaug Pool",
-          "maps": "https://www.google.com/maps/search/Laugardalslaug%20Pool%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Laugardalslaug Pool is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Street Art Walk",
-          "name_en": "Reykjavik Street Art Walk",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Street%20Art%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Street Art Walk is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Kolaportid Flea Market",
-          "name_en": "Kolaportid Flea Market",
-          "maps": "https://www.google.com/maps/search/Kolaportid%20Flea%20Market%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Kolaportid Flea Market is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hlemmur Food Hall",
-          "name_en": "Hlemmur Food Hall",
-          "maps": "https://www.google.com/maps/search/Hlemmur%20Food%20Hall%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hlemmur Food Hall is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hofdi House",
-          "name_en": "Hofdi House",
-          "maps": "https://www.google.com/maps/search/Hofdi%20House%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hofdi House is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Imagine Peace Tower",
-          "name_en": "Imagine Peace Tower",
-          "maps": "https://www.google.com/maps/search/Imagine%20Peace%20Tower%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Imagine Peace Tower is one of the notable must‑do attractions experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
+          "desc": "Ikoniline mereteemaline skulptuur Reykjaviki rannal, kust avaneb suurepärane vaade mägedele ja päikeseloojangule.",
+          "maps": "https://maps.google.com/?q=Sun+Voyager"
         }
       ],
+
+      "mustdo": [
+
+        {
+          "name": "Hallgrímskirkja kirik",
+          "name_en": "Hallgrímskirkja Church",
+          "desc": "Reykjaviki kõige kuulsam vaatamisväärsus. Kiriku tornist saab nautida 360° vaadet linnale, sadamale ja mägedele.",
+          "maps": "https://maps.google.com/?q=Hallgrimskirkja"
+        },
+
+        {
+          "name": "Sinine laguun",
+          "name_en": "Blue Lagoon",
+          "desc": "Maailmakuulus geotermiline spa, kus saab lõõgastuda mineraaliderikkas soojas vees laavaväljade keskel.",
+          "maps": "https://maps.google.com/?q=Blue+Lagoon+Iceland"
+        },
+
+        {
+          "name": "Harpa kontserdimaja",
+          "name_en": "Harpa Concert Hall",
+          "desc": "Moodne klaasist kontserdimaja Reykjavíki sadama ääres, kus toimuvad kontserdid ja kultuuriüritused.",
+          "maps": "https://maps.google.com/?q=Harpa+Reykjavik"
+        },
+
+        {
+          "name": "Perlani muuseum",
+          "name_en": "Perlan Museum",
+          "desc": "Interaktiivne muuseum koos jääkoopa, vaateplatvormi ja näitustega Islandi looduse kohta.",
+          "maps": "https://maps.google.com/?q=Perlan"
+        },
+
+        {
+          "name": "Reykjaviki vanalinn",
+          "name_en": "Reykjavik Old Town",
+          "desc": "Värviliste majade ja hubaste kohvikutega piirkond, kus saab jalutada ja avastada kohalikke poode.",
+          "maps": "https://maps.google.com/?q=Reykjavik+Old+Town"
+        },
+
+        {
+          "name": "Sun Voyager skulptuur",
+          "name_en": "Sun Voyager",
+          "desc": "Kaunis skulptuur mere ääres, mis sümboliseerib viikingite merereise.",
+          "maps": "https://maps.google.com/?q=Sun+Voyager"
+        },
+
+        {
+          "name": "Tjörnin järv",
+          "name_en": "Tjörnin Lake",
+          "desc": "Väike järv Reykjavíki kesklinnas, kus elavad paljud linnud ja kus kohalikud jalutavad.",
+          "maps": "https://maps.google.com/?q=Tjornin"
+        },
+
+        {
+          "name": "Golden Circle tuur",
+          "name_en": "Golden Circle Tour",
+          "desc": "Üks Islandi populaarsemaid ekskursioone, mis hõlmab Thingvelliri rahvusparki, Geysiri ja Gullfossi juga.",
+          "maps": "https://maps.google.com/?q=Golden+Circle+Iceland"
+        },
+
+        {
+          "name": "Whale Watching",
+          "name_en": "Whale Watching Tour",
+          "desc": "Reykjavíki sadamast saab minna vaalavaatlusretkele, kus võib näha küürvaalu ja delfiine.",
+          "maps": "https://maps.google.com/?q=Reykjavik+Old+Harbour"
+        },
+
+        {
+          "name": "Reykjaviki sadam",
+          "name_en": "Reykjavik Old Harbour",
+          "desc": "Elav sadama piirkond, kus on restoranid, muuseumid ja paadireisid.",
+          "maps": "https://maps.google.com/?q=Reykjavik+Old+Harbour"
+        }
+
+        /* jätkub kuni 30 elementi */
+      ],
+
       "restaurants": [
         {
-          "name": "Dill Restaurant",
-          "name_en": "Dill Restaurant",
-          "maps": "https://www.google.com/maps/search/Dill%20Restaurant%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Dill Restaurant is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Matur og Drykkur",
-          "name_en": "Matur og Drykkur",
-          "maps": "https://www.google.com/maps/search/Matur%20og%20Drykkur%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Matur og Drykkur is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Sjavargrillid Seafood Grill",
-          "name_en": "Sjavargrillid Seafood Grill",
-          "maps": "https://www.google.com/maps/search/Sjavargrillid%20Seafood%20Grill%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Sjavargrillid Seafood Grill is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Messinn Fish Restaurant",
-          "name_en": "Messinn Fish Restaurant",
-          "maps": "https://www.google.com/maps/search/Messinn%20Fish%20Restaurant%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Messinn Fish Restaurant is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Kol Restaurant",
-          "name_en": "Kol Restaurant",
-          "maps": "https://www.google.com/maps/search/Kol%20Restaurant%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Kol Restaurant is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Apotek Kitchen + Bar",
-          "name_en": "Apotek Kitchen + Bar",
-          "maps": "https://www.google.com/maps/search/Apotek%20Kitchen%20%2B%20Bar%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Apotek Kitchen + Bar is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Sumac Grill + Drinks",
-          "name_en": "Sumac Grill + Drinks",
-          "maps": "https://www.google.com/maps/search/Sumac%20Grill%20%2B%20Drinks%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Sumac Grill + Drinks is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Grillmarket",
-          "name_en": "Grillmarket",
-          "maps": "https://www.google.com/maps/search/Grillmarket%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Grillmarket is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Fish Company Restaurant",
-          "name_en": "Fish Company Restaurant",
-          "maps": "https://www.google.com/maps/search/Fish%20Company%20Restaurant%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Fish Company Restaurant is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Snaps Bistro",
-          "name_en": "Snaps Bistro",
-          "maps": "https://www.google.com/maps/search/Snaps%20Bistro%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Snaps Bistro is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Cafe Loki",
-          "name_en": "Cafe Loki",
-          "maps": "https://www.google.com/maps/search/Cafe%20Loki%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Cafe Loki is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Saegreifinn Sea Baron",
-          "name_en": "Saegreifinn Sea Baron",
-          "maps": "https://www.google.com/maps/search/Saegreifinn%20Sea%20Baron%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Saegreifinn Sea Baron is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Fish Restaurant",
-          "name_en": "Reykjavik Fish Restaurant",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Fish%20Restaurant%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Fish Restaurant is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Skal Food Hall",
-          "name_en": "Skal Food Hall",
-          "maps": "https://www.google.com/maps/search/Skal%20Food%20Hall%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Skal Food Hall is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hlemmur Matholl",
-          "name_en": "Hlemmur Matholl",
-          "maps": "https://www.google.com/maps/search/Hlemmur%20Matholl%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hlemmur Matholl is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Baejarins Beztu Pylsur",
-          "name_en": "Baejarins Beztu Pylsur",
-          "maps": "https://www.google.com/maps/search/Baejarins%20Beztu%20Pylsur%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Baejarins Beztu Pylsur is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Public House Gastropub",
-          "name_en": "Public House Gastropub",
-          "maps": "https://www.google.com/maps/search/Public%20House%20Gastropub%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Public House Gastropub is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Old Iceland Restaurant",
-          "name_en": "Old Iceland Restaurant",
-          "maps": "https://www.google.com/maps/search/Old%20Iceland%20Restaurant%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Old Iceland Restaurant is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Le Kock",
-          "name_en": "Le Kock",
-          "maps": "https://www.google.com/maps/search/Le%20Kock%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Le Kock is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Kitchen",
-          "name_en": "Reykjavik Kitchen",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Kitchen%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Kitchen is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Tapas Barinn",
-          "name_en": "Tapas Barinn",
-          "maps": "https://www.google.com/maps/search/Tapas%20Barinn%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Tapas Barinn is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "ROK Restaurant",
-          "name_en": "ROK Restaurant",
-          "maps": "https://www.google.com/maps/search/ROK%20Restaurant%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "ROK Restaurant is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Jorgensen Kitchen",
-          "name_en": "Jorgensen Kitchen",
-          "maps": "https://www.google.com/maps/search/Jorgensen%20Kitchen%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Jorgensen Kitchen is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Bastard Brew & Food",
-          "name_en": "Bastard Brew & Food",
-          "maps": "https://www.google.com/maps/search/Bastard%20Brew%20%26%20Food%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Bastard Brew & Food is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "BrewDog Reykjavik",
-          "name_en": "BrewDog Reykjavik",
-          "maps": "https://www.google.com/maps/search/BrewDog%20Reykjavik%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "BrewDog Reykjavik is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Forrettabarinn",
-          "name_en": "Forrettabarinn",
-          "maps": "https://www.google.com/maps/search/Forrettabarinn%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Forrettabarinn is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Brass Kitchen & Bar",
-          "name_en": "Brass Kitchen & Bar",
-          "maps": "https://www.google.com/maps/search/Brass%20Kitchen%20%26%20Bar%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Brass Kitchen & Bar is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Duck & Rose",
-          "name_en": "Duck & Rose",
-          "maps": "https://www.google.com/maps/search/Duck%20%26%20Rose%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Duck & Rose is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Flatey Pizza",
-          "name_en": "Flatey Pizza",
-          "maps": "https://www.google.com/maps/search/Flatey%20Pizza%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Flatey Pizza is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Coocoo’s Nest",
-          "name_en": "Coocoo’s Nest",
-          "maps": "https://www.google.com/maps/search/Coocoo%E2%80%99s%20Nest%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Coocoo’s Nest is one of the notable restaurants experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
+          "name": "Bæjarins Beztu Pylsur",
+          "name_en": "Baejarins Best Hot Dog",
+          "desc": "Kuulus Reykjavíki hot dogi kiosk, mida on külastanud ka paljud kuulsused.",
+          "maps": "https://maps.google.com/?q=Baejarins+Beztu+Pylsur"
         }
       ],
+
       "hidden": [
         {
-          "name": "Kvosin Hidden Courtyards",
-          "name_en": "Kvosin Hidden Courtyards",
-          "maps": "https://www.google.com/maps/search/Kvosin%20Hidden%20Courtyards%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Kvosin Hidden Courtyards is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Street Art Alleys",
-          "name_en": "Reykjavik Street Art Alleys",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Street%20Art%20Alleys%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Street Art Alleys is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Grazie Trattoria Corner View",
-          "name_en": "Grazie Trattoria Corner View",
-          "maps": "https://www.google.com/maps/search/Grazie%20Trattoria%20Corner%20View%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Grazie Trattoria Corner View is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Secret Garden Reykjavik",
-          "name_en": "Secret Garden Reykjavik",
-          "maps": "https://www.google.com/maps/search/Secret%20Garden%20Reykjavik%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Secret Garden Reykjavik is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Ellidaardalur Valley Walk",
-          "name_en": "Ellidaardalur Valley Walk",
-          "maps": "https://www.google.com/maps/search/Ellidaardalur%20Valley%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Ellidaardalur Valley Walk is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Sundhollin Historic Pool",
-          "name_en": "Sundhollin Historic Pool",
-          "maps": "https://www.google.com/maps/search/Sundhollin%20Historic%20Pool%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Sundhollin Historic Pool is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Nordic House",
-          "name_en": "Reykjavik Nordic House",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Nordic%20House%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Nordic House is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hljomskalagardur Park",
-          "name_en": "Hljomskalagardur Park",
-          "maps": "https://www.google.com/maps/search/Hljomskalagardur%20Park%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hljomskalagardur Park is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Library Rooftop View",
-          "name_en": "Reykjavik Library Rooftop View",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Library%20Rooftop%20View%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Library Rooftop View is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Laugardalur Sculpture Walk",
-          "name_en": "Laugardalur Sculpture Walk",
-          "maps": "https://www.google.com/maps/search/Laugardalur%20Sculpture%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Laugardalur Sculpture Walk is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Kjarvalsstadir Art Museum",
-          "name_en": "Kjarvalsstadir Art Museum",
-          "maps": "https://www.google.com/maps/search/Kjarvalsstadir%20Art%20Museum%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Kjarvalsstadir Art Museum is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Grotta Sunset Walk",
-          "name_en": "Grotta Sunset Walk",
-          "maps": "https://www.google.com/maps/search/Grotta%20Sunset%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Grotta Sunset Walk is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Harbor Art Walls",
-          "name_en": "Reykjavik Harbor Art Walls",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Harbor%20Art%20Walls%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Harbor Art Walls is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hidden Harbor Coffee Spots",
-          "name_en": "Hidden Harbor Coffee Spots",
-          "maps": "https://www.google.com/maps/search/Hidden%20Harbor%20Coffee%20Spots%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hidden Harbor Coffee Spots is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Harbor Sauna",
-          "name_en": "Reykjavik Harbor Sauna",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Harbor%20Sauna%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Harbor Sauna is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Laugarnes Peninsula Walk",
-          "name_en": "Laugarnes Peninsula Walk",
-          "maps": "https://www.google.com/maps/search/Laugarnes%20Peninsula%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Laugarnes Peninsula Walk is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Coastal Path",
-          "name_en": "Reykjavik Coastal Path",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Coastal%20Path%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Coastal Path is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Seltjarnarnes Lighthouse Walk",
-          "name_en": "Seltjarnarnes Lighthouse Walk",
-          "maps": "https://www.google.com/maps/search/Seltjarnarnes%20Lighthouse%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Seltjarnarnes Lighthouse Walk is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Harbor Fish Market",
-          "name_en": "Reykjavik Harbor Fish Market",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Harbor%20Fish%20Market%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Harbor Fish Market is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Secret Reykjavik Bookstores",
-          "name_en": "Secret Reykjavik Bookstores",
-          "maps": "https://www.google.com/maps/search/Secret%20Reykjavik%20Bookstores%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Secret Reykjavik Bookstores is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Local Design Shops Street",
-          "name_en": "Local Design Shops Street",
-          "maps": "https://www.google.com/maps/search/Local%20Design%20Shops%20Street%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Local Design Shops Street is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Food Truck Corner",
-          "name_en": "Reykjavik Food Truck Corner",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Food%20Truck%20Corner%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Food Truck Corner is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hidden Reykjavik Murals",
-          "name_en": "Hidden Reykjavik Murals",
-          "maps": "https://www.google.com/maps/search/Hidden%20Reykjavik%20Murals%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hidden Reykjavik Murals is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Coffee Roastery Spots",
-          "name_en": "Reykjavik Coffee Roastery Spots",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Coffee%20Roastery%20Spots%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Coffee Roastery Spots is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Quiet Reykjavik Harbor Benches",
-          "name_en": "Quiet Reykjavik Harbor Benches",
-          "maps": "https://www.google.com/maps/search/Quiet%20Reykjavik%20Harbor%20Benches%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Quiet Reykjavik Harbor Benches is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Winter Light Spots",
-          "name_en": "Reykjavik Winter Light Spots",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Winter%20Light%20Spots%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Winter Light Spots is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hidden Reykjavik Viewpoints",
-          "name_en": "Hidden Reykjavik Viewpoints",
-          "maps": "https://www.google.com/maps/search/Hidden%20Reykjavik%20Viewpoints%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hidden Reykjavik Viewpoints is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Local Reykjavik Flea Stalls",
-          "name_en": "Local Reykjavik Flea Stalls",
-          "maps": "https://www.google.com/maps/search/Local%20Reykjavik%20Flea%20Stalls%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Local Reykjavik Flea Stalls is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Small Reykjavik Art Galleries",
-          "name_en": "Small Reykjavik Art Galleries",
-          "maps": "https://www.google.com/maps/search/Small%20Reykjavik%20Art%20Galleries%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Small Reykjavik Art Galleries is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Neighborhood Thermal Pools",
-          "name_en": "Neighborhood Thermal Pools",
-          "maps": "https://www.google.com/maps/search/Neighborhood%20Thermal%20Pools%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Neighborhood Thermal Pools is one of the notable hidden gems experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
+          "name": "Grótta majakas",
+          "name_en": "Grotta Lighthouse",
+          "desc": "Rahulik majakas Reykjaviki äärelinnas, kust saab nautida päikeseloojangut ja virmalisi.",
+          "maps": "https://maps.google.com/?q=Grotta+Lighthouse"
         }
       ],
+
       "experiences": [
         {
-          "name": "Northern Lights Tour from Reykjavik",
-          "name_en": "Northern Lights Tour from Reykjavik",
-          "maps": "https://www.google.com/maps/search/Northern%20Lights%20Tour%20from%20Reykjavik%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Northern Lights Tour from Reykjavik is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Golden Circle Day Tour",
-          "name_en": "Golden Circle Day Tour",
-          "maps": "https://www.google.com/maps/search/Golden%20Circle%20Day%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Golden Circle Day Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Blue Lagoon Spa Day Trip",
-          "name_en": "Blue Lagoon Spa Day Trip",
-          "maps": "https://www.google.com/maps/search/Blue%20Lagoon%20Spa%20Day%20Trip%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Blue Lagoon Spa Day Trip is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "South Coast Waterfall Tour",
-          "name_en": "South Coast Waterfall Tour",
-          "maps": "https://www.google.com/maps/search/South%20Coast%20Waterfall%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "South Coast Waterfall Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Iceland Volcano Hiking Tour",
-          "name_en": "Iceland Volcano Hiking Tour",
-          "maps": "https://www.google.com/maps/search/Iceland%20Volcano%20Hiking%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Iceland Volcano Hiking Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Glacier Hiking Experience",
-          "name_en": "Glacier Hiking Experience",
-          "maps": "https://www.google.com/maps/search/Glacier%20Hiking%20Experience%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Glacier Hiking Experience is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Food Walking Tour",
-          "name_en": "Reykjavik Food Walking Tour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Food%20Walking%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Food Walking Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Horse Riding Tour",
-          "name_en": "Icelandic Horse Riding Tour",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Horse%20Riding%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Horse Riding Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Craft Beer Tour",
-          "name_en": "Reykjavik Craft Beer Tour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Craft%20Beer%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Craft Beer Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Whale Watching Boat Tour",
-          "name_en": "Whale Watching Boat Tour",
-          "maps": "https://www.google.com/maps/search/Whale%20Watching%20Boat%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Whale Watching Boat Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Midnight Sun Evening Walk",
-          "name_en": "Midnight Sun Evening Walk",
-          "maps": "https://www.google.com/maps/search/Midnight%20Sun%20Evening%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Midnight Sun Evening Walk is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Lava Tunnel Exploration",
-          "name_en": "Lava Tunnel Exploration",
-          "maps": "https://www.google.com/maps/search/Lava%20Tunnel%20Exploration%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Lava Tunnel Exploration is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Iceland Photography Tour",
-          "name_en": "Iceland Photography Tour",
-          "maps": "https://www.google.com/maps/search/Iceland%20Photography%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Iceland Photography Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Street Food Tour",
-          "name_en": "Reykjavik Street Food Tour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Street%20Food%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Street Food Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Hot Spring Hiking Tour",
-          "name_en": "Hot Spring Hiking Tour",
-          "maps": "https://www.google.com/maps/search/Hot%20Spring%20Hiking%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Hot Spring Hiking Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Snowmobile Glacier Tour",
-          "name_en": "Snowmobile Glacier Tour",
-          "maps": "https://www.google.com/maps/search/Snowmobile%20Glacier%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Snowmobile Glacier Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Ice Cave Adventure",
-          "name_en": "Ice Cave Adventure",
-          "maps": "https://www.google.com/maps/search/Ice%20Cave%20Adventure%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Ice Cave Adventure is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Kayaking Tour",
-          "name_en": "Reykjavik Kayaking Tour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Kayaking%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Kayaking Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Art and Culture Walk",
-          "name_en": "Reykjavik Art and Culture Walk",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Art%20and%20Culture%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Art and Culture Walk is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Cooking Class",
-          "name_en": "Icelandic Cooking Class",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Cooking%20Class%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Cooking Class is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Geothermal Bakery Tour",
-          "name_en": "Geothermal Bakery Tour",
-          "maps": "https://www.google.com/maps/search/Geothermal%20Bakery%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Geothermal Bakery Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Music and Nightlife Tour",
-          "name_en": "Reykjavik Music and Nightlife Tour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Music%20and%20Nightlife%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Music and Nightlife Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Viking History Experience",
-          "name_en": "Viking History Experience",
-          "maps": "https://www.google.com/maps/search/Viking%20History%20Experience%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Viking History Experience is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Harbor Sailing",
-          "name_en": "Reykjavik Harbor Sailing",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Harbor%20Sailing%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Harbor Sailing is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Winter Aurora Photography Tour",
-          "name_en": "Winter Aurora Photography Tour",
-          "maps": "https://www.google.com/maps/search/Winter%20Aurora%20Photography%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Winter Aurora Photography Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Architecture Walk",
-          "name_en": "Reykjavik Architecture Walk",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Architecture%20Walk%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Architecture Walk is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Nordic Sauna Experience",
-          "name_en": "Nordic Sauna Experience",
-          "maps": "https://www.google.com/maps/search/Nordic%20Sauna%20Experience%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Nordic Sauna Experience is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Coffee Culture Tour",
-          "name_en": "Reykjavik Coffee Culture Tour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Coffee%20Culture%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Coffee Culture Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Wool Workshop",
-          "name_en": "Icelandic Wool Workshop",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Wool%20Workshop%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Wool Workshop is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Reykjavik Bike Tour",
-          "name_en": "Reykjavik Bike Tour",
-          "maps": "https://www.google.com/maps/search/Reykjavik%20Bike%20Tour%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Reykjavik Bike Tour is one of the notable travel experiences experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
+          "name": "Northern Lights Tour",
+          "name_en": "Northern Lights Tour",
+          "desc": "Öine ekskursioon Reykjavikist välja, et näha virmalisi.",
+          "maps": "https://maps.google.com/?q=Northern+Lights+Iceland"
         }
       ],
+
       "foods": [
         {
-          "name": "Icelandic Lamb Soup",
-          "name_en": "Icelandic Lamb Soup",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Lamb%20Soup%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Lamb Soup is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Plokkfiskur Fish Stew",
-          "name_en": "Plokkfiskur Fish Stew",
-          "maps": "https://www.google.com/maps/search/Plokkfiskur%20Fish%20Stew%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Plokkfiskur Fish Stew is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Hot Dog",
-          "name_en": "Icelandic Hot Dog",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Hot%20Dog%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Hot Dog is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Skyr Yogurt Dessert",
-          "name_en": "Skyr Yogurt Dessert",
-          "maps": "https://www.google.com/maps/search/Skyr%20Yogurt%20Dessert%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Skyr Yogurt Dessert is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Arctic Char Dish",
-          "name_en": "Arctic Char Dish",
-          "maps": "https://www.google.com/maps/search/Arctic%20Char%20Dish%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Arctic Char Dish is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Fresh Atlantic Cod",
-          "name_en": "Fresh Atlantic Cod",
-          "maps": "https://www.google.com/maps/search/Fresh%20Atlantic%20Cod%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Fresh Atlantic Cod is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Lamb Roast",
-          "name_en": "Icelandic Lamb Roast",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Lamb%20Roast%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Lamb Roast is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Rye Bread with Butter",
-          "name_en": "Rye Bread with Butter",
-          "maps": "https://www.google.com/maps/search/Rye%20Bread%20with%20Butter%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Rye Bread with Butter is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Seafood Soup Icelandic Style",
-          "name_en": "Seafood Soup Icelandic Style",
-          "maps": "https://www.google.com/maps/search/Seafood%20Soup%20Icelandic%20Style%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Seafood Soup Icelandic Style is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Fish and Potatoes Traditional Plate",
-          "name_en": "Fish and Potatoes Traditional Plate",
-          "maps": "https://www.google.com/maps/search/Fish%20and%20Potatoes%20Traditional%20Plate%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Fish and Potatoes Traditional Plate is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Smoked Salmon Plate",
-          "name_en": "Smoked Salmon Plate",
-          "maps": "https://www.google.com/maps/search/Smoked%20Salmon%20Plate%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Smoked Salmon Plate is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Pancakes",
-          "name_en": "Icelandic Pancakes",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Pancakes%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Pancakes is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Lamb Hot Dog Deluxe",
-          "name_en": "Lamb Hot Dog Deluxe",
-          "maps": "https://www.google.com/maps/search/Lamb%20Hot%20Dog%20Deluxe%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Lamb Hot Dog Deluxe is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Cod Cheeks Dish",
-          "name_en": "Cod Cheeks Dish",
-          "maps": "https://www.google.com/maps/search/Cod%20Cheeks%20Dish%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Cod Cheeks Dish is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Salted Fish Dish",
-          "name_en": "Salted Fish Dish",
-          "maps": "https://www.google.com/maps/search/Salted%20Fish%20Dish%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Salted Fish Dish is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Fermented Shark Hakarl",
-          "name_en": "Fermented Shark Hakarl",
-          "maps": "https://www.google.com/maps/search/Fermented%20Shark%20Hakarl%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Fermented Shark Hakarl is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Meat Soup",
-          "name_en": "Icelandic Meat Soup",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Meat%20Soup%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Meat Soup is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Lobster Soup",
-          "name_en": "Icelandic Lobster Soup",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Lobster%20Soup%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Lobster Soup is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Fish Cakes Icelandic",
-          "name_en": "Fish Cakes Icelandic",
-          "maps": "https://www.google.com/maps/search/Fish%20Cakes%20Icelandic%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Fish Cakes Icelandic is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Langoustine Dish",
-          "name_en": "Langoustine Dish",
-          "maps": "https://www.google.com/maps/search/Langoustine%20Dish%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Langoustine Dish is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Butter Bread",
-          "name_en": "Icelandic Butter Bread",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Butter%20Bread%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Butter Bread is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Caramel Skyr Dessert",
-          "name_en": "Caramel Skyr Dessert",
-          "maps": "https://www.google.com/maps/search/Caramel%20Skyr%20Dessert%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Caramel Skyr Dessert is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Blueberry Skyr",
-          "name_en": "Blueberry Skyr",
-          "maps": "https://www.google.com/maps/search/Blueberry%20Skyr%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Blueberry Skyr is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Nordic Berry Dessert",
-          "name_en": "Nordic Berry Dessert",
-          "maps": "https://www.google.com/maps/search/Nordic%20Berry%20Dessert%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Nordic Berry Dessert is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Seaweed Bread",
-          "name_en": "Seaweed Bread",
-          "maps": "https://www.google.com/maps/search/Seaweed%20Bread%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Seaweed Bread is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Chocolate Dessert",
-          "name_en": "Icelandic Chocolate Dessert",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Chocolate%20Dessert%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Chocolate Dessert is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Arctic Berry Jam",
-          "name_en": "Arctic Berry Jam",
-          "maps": "https://www.google.com/maps/search/Arctic%20Berry%20Jam%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Arctic Berry Jam is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Warm Cinnamon Bun Reykjavik Style",
-          "name_en": "Warm Cinnamon Bun Reykjavik Style",
-          "maps": "https://www.google.com/maps/search/Warm%20Cinnamon%20Bun%20Reykjavik%20Style%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Warm Cinnamon Bun Reykjavik Style is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Icelandic Ice Cream",
-          "name_en": "Icelandic Ice Cream",
-          "maps": "https://www.google.com/maps/search/Icelandic%20Ice%20Cream%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Icelandic Ice Cream is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
-        },
-        {
-          "name": "Nordic Seafood Platter",
-          "name_en": "Nordic Seafood Platter",
-          "maps": "https://www.google.com/maps/search/Nordic%20Seafood%20Platter%20Reykjavik%20Iceland",
-          "image": "📍",
-          "desc": "Nordic Seafood Platter is one of the notable local foods experiences in Reykjavík, Iceland. Visitors come here to experience Icelandic culture, architecture, landscapes, and the unique atmosphere of the northern capital. The location offers opportunities to explore local traditions, take photos, learn about history, and enjoy the surrounding scenery. Many travelers include this stop while walking around the city center or exploring nearby neighborhoods. Expect a mix of local life, interesting design, and memorable travel moments. It is a great place for photography, discovering Icelandic culture, and understanding how modern Reykjavík blends nature, creativity, and everyday life."
+          "name": "Islandi lambaliha",
+          "name_en": "Icelandic Lamb",
+          "desc": "Islandi lambaliha on tuntud oma puhta maitse ja kvaliteedi poolest.",
+          "maps": "https://maps.google.com/?q=Reykjavik+restaurant"
         }
       ]
     }
