@@ -3,101 +3,148 @@
     {
       "id": "reykjavik",
       "name": "Reykjavik",
-      "country": "🇮🇸 Island",
+      "country": "🇮🇸 Iceland",
       "mustdo": [
-        { "id": 1, "name": "Hallgrímskirkja", "desc": "Reykjaviki kuulus kirik ja linna sümbol", "image": "⛪" },
-        { "id": 2, "name": "Harpa kontserdimaja", "desc": "Kaasaegne klaasist kontserdi- ja kultuurikeskus", "image": "🎶" },
-        { "id": 3, "name": "Sun Voyager", "desc": "Kuulus viikingilaeva skulptuur mere ääres", "image": "🗿" },
-        { "id": 4, "name": "Perlan", "desc": "Muuseum ja vaateplatvorm klaaskupliga", "image": "🏛️" },
-        { "id": 5, "name": "Reykjaviki sadam", "desc": "Vaalavaatlus ja mereäärne jalutus", "image": "⚓" },
-        { "id": 6, "name": "Tjörnin järv", "desc": "Linna keskne järv lindudega", "image": "🦢" },
-        { "id": 7, "name": "Laugavegur tänav", "desc": "Reykjaviki peamine shopping- ja kohvikutänav", "image": "🛍️" },
-        { "id": 8, "name": "Reykjaviki raekoda", "desc": "Modernne hoone järve ääres", "image": "🏛️" },
-        { "id": 9, "name": "National Museum of Iceland", "desc": "Islandi ajaloo muuseum", "image": "🏺" },
-        { "id": 10, "name": "Arbaer Open Air Museum", "desc": "Traditsioonilised Islandi majad", "image": "🏘️" },
-        { "id": 11, "name": "Grótta majakas", "desc": "Majakas ja populaarne päikeseloojangu koht", "image": "🗼" },
-        { "id": 12, "name": "Reykjaviki kunstimuuseum", "desc": "Kaasaegse kunsti näitused", "image": "🎨" },
-        { "id": 13, "name": "Nauthólsvík rand", "desc": "Geotermilise veega rand", "image": "🏖️" },
-        { "id": 14, "name": "Videy saar", "desc": "Kunst ja loodus linnalähedasel saarel", "image": "🏝️" },
-        { "id": 15, "name": "Imagine Peace Tower", "desc": "Yoko Ono rahutorn", "image": "🕯️" },
-        { "id": 16, "name": "Skólavörðustígur", "desc": "Vikerkaarevärviline tänav", "image": "🌈" },
-        { "id": 17, "name": "Laugardalslaug", "desc": "Suurim geotermiline bassein", "image": "♨️" },
-        { "id": 18, "name": "Reykjaviki botaanikaaed", "desc": "Põhjamaine taimestik", "image": "🌿" },
-        { "id": 19, "name": "Whales of Iceland", "desc": "Vaalade muuseum", "image": "🐋" },
-        { "id": 20, "name": "Saga Museum", "desc": "Islandi viikingiajalugu", "image": "⚔️" },
-        { "id": 21, "name": "Kolaportid turg", "desc": "Nädalavahetuse kirbuturg", "image": "🛒" },
-        { "id": 22, "name": "Höfði maja", "desc": "Ajalooline diplomaatiline hoone", "image": "🏠" },
-        { "id": 23, "name": "Austurvöllur väljak", "desc": "Parlamendi ees olev väljak", "image": "🏛️" },
-        { "id": 24, "name": "Reykjaviki sadamapiirkond", "desc": "Restoranid ja jalutusalad", "image": "⚓" },
-        { "id": 25, "name": "Viðey kirik", "desc": "Ajalooline kirik saarel", "image": "⛪" },
-        { "id": 26, "name": "Laugardalur park", "desc": "Suur roheline park", "image": "🌳" },
-        { "id": 27, "name": "Ásmundarsafn", "desc": "Skulptuurimuuseum", "image": "🗿" },
-        { "id": 28, "name": "Reykjaviki meremuuseum", "desc": "Islandi kalanduse ajalugu", "image": "⚓" },
-        { "id": 29, "name": "Elliðaárdalur org", "desc": "Looduslik jalutusala", "image": "🌲" },
-        { "id": 30, "name": "Grotta loodusala", "desc": "Hea koht virmaliste vaatamiseks", "image": "🌌" }
+        {
+          "id": 1,
+          "name": "Hallgrímskirkja",
+          "name_en": "Hallgrímskirkja Church",
+          "desc": "Hallgrímskirkja on Reykjavíki kõige kuulsam kirik ja üks Islandi tuntumaid maamärke. Selle modernistlik arhitektuur on inspireeritud Islandi vulkaanilistest basaltkolonnidest. Külastajad saavad liftiga minna torni tippu, kust avaneb suurepärane panoraamvaade kogu Reykjavíki linnale, sadamale ja ümbritsevatele mägedele.",
+          "image": "⛪",
+          "maps": "https://maps.google.com/?q=Hallgrimskirkja+Reykjavik"
+        },
+        {
+          "id": 2,
+          "name": "Harpa kontserdimaja",
+          "name_en": "Harpa Concert Hall",
+          "desc": "Harpa on Reykjavíki ikooniline kontserdi- ja konverentsikeskus, mis asub otse sadama ääres. Hoone futuristlik klaasfassaad peegeldab valgust ja merd ning loob pidevalt muutuvad värvid. Seal toimuvad rahvusvahelised kontserdid, festivalid ja kultuuriüritused ning isegi ilma ürituseta tasub hoonet külastada selle arhitektuuri ja vaadete tõttu.",
+          "image": "🎶",
+          "maps": "https://maps.google.com/?q=Harpa+Concert+Hall+Reykjavik"
+        },
+        {
+          "id": 3,
+          "name": "Sun Voyager",
+          "name_en": "Sun Voyager Sculpture",
+          "desc": "Sun Voyager on kuulus terasest skulptuur Reykjavíki mereäärsel promenaadil. See meenutab viikingilaeva ja sümboliseerib avastamist, lootust ja vabadust. Skulptuur on üks linna populaarsemaid pildistamiskohti, eriti päikeseloojangu ajal, kui mäed ja meri loovad dramaatilise tausta.",
+          "image": "🗿",
+          "maps": "https://maps.google.com/?q=Sun+Voyager+Reykjavik"
+        },
+        {
+          "id": 4,
+          "name": "Perlan",
+          "name_en": "Perlan Museum",
+          "desc": "Perlan on klaaskupliga hoone mäe otsas, mis sisaldab interaktiivset loodusmuuseumi, jääkoobast, planetaariumi ja vaateplatvormi. Sealt saab näha Reykjavíki, Atlandi ookeani ja kaugemaid mägesid. Muuseum keskendub Islandi loodusele, liustikele ja virmalistele.",
+          "image": "🏛️",
+          "maps": "https://maps.google.com/?q=Perlan+Reykjavik"
+        },
+        {
+          "id": 5,
+          "name": "Tjörnin järv",
+          "name_en": "Tjörnin Lake",
+          "desc": "Tjörnin on väike, kuid väga populaarne järv Reykjavíki kesklinnas. See on tuntud oma lindude poolest ning on armastatud jalutuskoht nii kohalikele kui turistidele. Talvel muutub järv sageli uisuväljakuks.",
+          "image": "🦢",
+          "maps": "https://maps.google.com/?q=Tjornin+Lake+Reykjavik"
+        }
       ],
+
       "restaurants": [
-        { "id": 1, "name": "Dill", "desc": "Michelini tärniga Islandi restoran", "image": "⭐" },
-        { "id": 2, "name": "Matur og Drykkur", "desc": "Traditsiooniline Islandi köök", "image": "🍽️" },
-        { "id": 3, "name": "Grillmarkaðurinn", "desc": "Kohalik grill ja kaasaegne köök", "image": "🥩" },
-        { "id": 4, "name": "Sea Baron", "desc": "Kuulus homaarisupp", "image": "🦞" },
-        { "id": 5, "name": "Messinn", "desc": "Kuulus kalarestoran", "image": "🐟" },
-        { "id": 6, "name": "Snaps Bistro", "desc": "Prantsuse bistroo", "image": "🍷" },
-        { "id": 7, "name": "Sandholt", "desc": "Pagarikoda ja brunch", "image": "🥐" },
-        { "id": 8, "name": "Bæjarins Beztu Pylsur", "desc": "Kuulsad Islandi hot dogid", "image": "🌭" },
-        { "id": 9, "name": "Kaffivagninn", "desc": "Linna vanim restoran", "image": "🍽️" },
-        { "id": 10, "name": "Apotek Kitchen", "desc": "Moodne restoran vanas apteegis", "image": "🍽️" },
-        { "id": 11, "name": "Gló", "desc": "Tervislik ja taimetoit", "image": "🥗" },
-        { "id": 12, "name": "Sæta Svínið", "desc": "BBQ ja Islandi maitsed", "image": "🍖" },
-        { "id": 13, "name": "Fish Company", "desc": "Rahvusvaheline kalaköök", "image": "🐟" },
-        { "id": 14, "name": "Public House", "desc": "Tapas stiilis menüü", "image": "🍤" },
-        { "id": 15, "name": "Hlemmur Mathöll", "desc": "Street food hall", "image": "🍜" },
-        { "id": 16, "name": "Reykjavik Kitchen", "desc": "Kodune Islandi köök", "image": "🍲" },
-        { "id": 17, "name": "Kol Restaurant", "desc": "Fine dining", "image": "⭐" },
-        { "id": 18, "name": "Lava Restaurant", "desc": "Blue Lagoon restoran", "image": "🍽️" },
-        { "id": 19, "name": "Old Iceland", "desc": "Traditsioonilised road", "image": "🥘" },
-        { "id": 20, "name": "Brauð & Co", "desc": "Kuulsad kaneelisaiad", "image": "🥐" },
-        { "id": 21, "name": "Flatey Pizza", "desc": "Gurmee pizza", "image": "🍕" },
-        { "id": 22, "name": "Forréttabarinn", "desc": "Tapased ja kokteilid", "image": "🍸" },
-        { "id": 23, "name": "Kopar", "desc": "Meretoit sadamas", "image": "🐟" },
-        { "id": 24, "name": "ROK", "desc": "Väike modernne restoran", "image": "🍽️" },
-        { "id": 25, "name": "Skál!", "desc": "Kohalik street food", "image": "🍜" }
+        {
+          "id": 1,
+          "name": "Dill",
+          "name_en": "Dill Restaurant",
+          "desc": "Dill on Islandi esimene Michelini tärniga restoran ja üks Reykjavíki kulinaarseid tippe. Restoran keskendub kaasaegsele Islandi köögile, kasutades kohalikke ja hooajalisi tooraineid nagu lambaliha, kala ja metsataimed. Menüü muutub sageli, pakkudes ainulaadset gastronoomilist elamust.",
+          "image": "⭐",
+          "maps": "https://maps.google.com/?q=Dill+Restaurant+Reykjavik"
+        },
+        {
+          "id": 2,
+          "name": "Matur og Drykkur",
+          "name_en": "Food and Drink Restaurant",
+          "desc": "Matur og Drykkur tähendab islandi keeles 'toit ja jook'. Restoran pakub traditsioonilisi Islandi roogasid modernses võtmes, kasutades vanu retsepte ja kohalikke koostisosi. See on suurepärane koht, kus proovida autentset Islandi kööki kaasaegses atmosfääris.",
+          "image": "🍽️",
+          "maps": "https://maps.google.com/?q=Matur+og+Drykkur+Reykjavik"
+        },
+        {
+          "id": 3,
+          "name": "Sea Baron",
+          "name_en": "Sægreifinn Sea Baron",
+          "desc": "Sea Baron on legendaarne väike restoran Reykjavíki sadama piirkonnas. See on eriti kuulus oma homaarisupi poolest, mida peetakse üheks parimaks linnas. Koht on lihtne ja autentne ning pakub värsket mereandide kogemust.",
+          "image": "🦞",
+          "maps": "https://maps.google.com/?q=Saegreifinn+Sea+Baron+Reykjavik"
+        },
+        {
+          "id": 4,
+          "name": "Messinn",
+          "name_en": "Messinn Seafood Restaurant",
+          "desc": "Messinn on populaarne restoran, mis on spetsialiseerunud Islandi kalaroogadele. Menüüs on pannil küpsetatud tursk, arktika forell ja teised värsked kalad, mida serveeritakse traditsiooniliste lisanditega nagu kartul ja köögiviljad.",
+          "image": "🐟",
+          "maps": "https://maps.google.com/?q=Messinn+Reykjavik"
+        },
+        {
+          "id": 5,
+          "name": "Bæjarins Beztu Pylsur",
+          "name_en": "Baejarins Beztu Hot Dog Stand",
+          "desc": "See kuulus hot dogi kiosk on Reykjavíki üks legendaarsemaid toidukohti. Seal pakutavad Islandi hot dogid on valmistatud lambalihast ja serveeritakse sibula, sinepi ja spetsiaalse kastmega. Kioskit on külastanud isegi paljud kuulsused.",
+          "image": "🌭",
+          "maps": "https://maps.google.com/?q=Baejarins+Beztu+Pylsur"
+        }
       ],
+
       "hidden": [
-        { "id": 1, "name": "Reykjaviki street art", "desc": "Linna värvilised muralid", "image": "🎨" },
-        { "id": 2, "name": "Secret Lagoon päevareis", "desc": "Vähem turistlik kuumaveebassein", "image": "♨️" },
-        { "id": 3, "name": "Klambratún park", "desc": "Vaikne park kesklinnas", "image": "🌳" },
-        { "id": 4, "name": "Hljómskálagarður park", "desc": "Roheline ala järve ääres", "image": "🌿" },
-        { "id": 5, "name": "Grandi piirkond", "desc": "Hipsteri restoranid ja galerii", "image": "🎨" },
-        { "id": 6, "name": "Reykjaviki kassikohvik", "desc": "Kohvik kassidega", "image": "🐱" },
-        { "id": 7, "name": "Aurora Reykjavik", "desc": "Virmaliste keskus", "image": "🌌" },
-        { "id": 8, "name": "Laugardalur loomaaed", "desc": "Väike Islandi loomaaed", "image": "🦊" },
-        { "id": 9, "name": "Skatepark Reykjavik", "desc": "Populaarne noorte koht", "image": "🛹" },
-        { "id": 10, "name": "Nauthólsvík kuum rand", "desc": "Geotermiline rand", "image": "🏖️" }
+        {
+          "id": 1,
+          "name": "Grandi piirkond",
+          "name_en": "Grandi District",
+          "desc": "Grandi on Reykjavíki endine tööstus- ja kalasadamapiirkond, mis on viimastel aastatel muutunud trendikaks loomekeskuseks. Seal leidub väikeseid galeriisid, kohvikuid, street food restorane ja disainipoode.",
+          "image": "🎨",
+          "maps": "https://maps.google.com/?q=Grandi+Reykjavik"
+        },
+        {
+          "id": 2,
+          "name": "Aurora Reykjavik",
+          "name_en": "Aurora Reykjavik Northern Lights Center",
+          "desc": "Aurora Reykjavik on väike, kuid väga huvitav muuseum, mis keskendub virmalistele. Seal saab õppida, kuidas virmalised tekivad, millal neid näha ja kuidas neid kõige paremini pildistada.",
+          "image": "🌌",
+          "maps": "https://maps.google.com/?q=Aurora+Reykjavik"
+        }
       ],
+
       "experiences": [
-        { "id": 1, "name": "Virmaliste vaatamine", "desc": "Northern Lights ekskursioon", "image": "🌌" },
-        { "id": 2, "name": "Blue Lagoon spa", "desc": "Kuulus geotermiline spa", "image": "♨️" },
-        { "id": 3, "name": "Vaalavaatlus", "desc": "Paadireis vaalade nägemiseks", "image": "🐋" },
-        { "id": 4, "name": "Golden Circle tour", "desc": "Kuulus Islandi päevareis", "image": "🚐" },
-        { "id": 5, "name": "Glacier hiking", "desc": "Matk liustikul", "image": "🏔️" },
-        { "id": 6, "name": "Lava cave tour", "desc": "Laavakoopad", "image": "🪨" },
-        { "id": 7, "name": "Snowmobile safari", "desc": "Lumesaani sõit", "image": "❄️" },
-        { "id": 8, "name": "Horse riding", "desc": "Islandi hobustega matk", "image": "🐎" },
-        { "id": 9, "name": "Food walking tour", "desc": "Reykjaviki toidutuur", "image": "🍽️" },
-        { "id": 10, "name": "Midnight sun tour", "desc": "Suve ööpäikesega ekskursioon", "image": "🌅" }
+        {
+          "id": 1,
+          "name": "Virmaliste vaatamine",
+          "name_en": "Northern Lights Tour",
+          "desc": "Virmaliste vaatamine on üks Islandi kõige maagilisemaid kogemusi. Ekskursioonid viivad linnast välja pimedatesse kohtadesse, kus on suurem võimalus näha taevas tantsivaid rohelisi ja lillakaid valgusmustreid.",
+          "image": "🌌",
+          "maps": "https://maps.google.com/?q=Reykjavik+Northern+Lights+Tour"
+        },
+        {
+          "id": 2,
+          "name": "Blue Lagoon spa",
+          "name_en": "Blue Lagoon Geothermal Spa",
+          "desc": "Blue Lagoon on Islandi kuulsaim geotermiline spa. Piimjas sinine mineraalvesi ja must laavamaastik loovad unikaalse atmosfääri. Külastajad saavad lõõgastuda kuumas vees, nautida spaaprotseduure ja Islandi loodust.",
+          "image": "♨️",
+          "maps": "https://maps.google.com/?q=Blue+Lagoon+Iceland"
+        }
       ],
+
       "foods": [
-        { "id": 1, "name": "Icelandic hot dog", "desc": "Kuulus lambalihast hot dog", "image": "🌭" },
-        { "id": 2, "name": "Skyr", "desc": "Islandi jogurtilaadne magustoit", "image": "🥣" },
-        { "id": 3, "name": "Lamb stew", "desc": "Traditsiooniline lambalihahautis", "image": "🍲" },
-        { "id": 4, "name": "Plokkfiskur", "desc": "Kala ja kartuli roog", "image": "🐟" },
-        { "id": 5, "name": "Arctic char", "desc": "Islandi lõheline kala", "image": "🐟" },
-        { "id": 6, "name": "Rúgbrauð", "desc": "Magus tume leib", "image": "🍞" },
-        { "id": 7, "name": "Kleinur", "desc": "Islandi sõõrik", "image": "🍩" },
-        { "id": 8, "name": "Langoustine", "desc": "Islandi homaar", "image": "🦞" },
-        { "id": 9, "name": "Hákarl", "desc": "Fermenteeritud hai", "image": "🦈" },
-        { "id": 10, "name": "Icelandic pancakes", "desc": "Õhukesed pannkoogid", "image": "🥞" }
+        {
+          "id": 1,
+          "name": "Islandi hot dog",
+          "name_en": "Icelandic Hot Dog",
+          "desc": "Islandi hot dog on Reykjavíki üks kuulsamaid street food roogasid. See on valmistatud peamiselt lambalihast ning serveeritakse krõbeda sibula, sinepi, ketšupi ja spetsiaalse majoneesikastmega.",
+          "image": "🌭",
+          "maps": "https://maps.google.com/?q=Icelandic+Hot+Dog+Reykjavik"
+        },
+        {
+          "id": 2,
+          "name": "Skyr",
+          "name_en": "Icelandic Skyr",
+          "desc": "Skyr on Islandi traditsiooniline piimatoode, mis sarnaneb jogurtile, kuid on paksem ja valgurikkam. Seda süüakse sageli marjade, mee või suhkruga ning see on Islandi köögi oluline osa.",
+          "image": "🥣",
+          "maps": "https://maps.google.com/?q=Skyr+Iceland"
+        }
       ]
     }
   ]
